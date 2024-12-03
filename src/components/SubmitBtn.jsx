@@ -1,4 +1,4 @@
-import { useNavigation } from "react-router-dom"
+import { useNavigation } from "react-router-dom";
 
 const SubmitBtn = ({text}) => {
 

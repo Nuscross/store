@@ -13,7 +13,7 @@ const Navlinks = () => {
 
   return (
     <>
-      {links.map((link) => {
+      { links.map((link) => {
         const { id, url, text } = link;
         return (
           <li key={id}>

@@ -1,8 +1,8 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { BsCart3, BsMoonFill, BsSunFill } from 'react-icons/bs';
 import { FaBarsStaggered } from 'react-icons/fa6';
 import Navlinks from "./Navlinks";
-import { useEffect, useState } from "react";
 
 const themes = {
   winter: "winter",
